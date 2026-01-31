@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-repeat: repeat;
+  color: black;
+  font-family: 'Georgia', sans-serif;
+}
+
+.content {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cardHolder {
+  margin: 30px 0 30px 0;
+}
+
+.card {
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+  border: 3px solid #330099;
+  background-color: #fefefe;
+  margin: 10px 0 10px 0;
+}
+
+.card h2,
+.card h3 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #330099;
+}
+
+.card p {
+  color: #555;
+}
+
+.socialBubbles {
+  margin: 10px;
+  font-size: 16px;
+}
+
+.bubble a,
+.bubble a:visited {
+  border: 2px solid #9eb3c2;
+  background-color: #330099;
+  color: #fefefe;
+  margin: 0 5px 5px 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.card a:hover {
+  color: #6161d0;
+}
+
+.bubble a:hover {
+  color: #fefefe;
+  background-color: #6161d0;
+}
+
+.card-nav {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.extraPadding {
+  padding: 20px 10px 20px 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
