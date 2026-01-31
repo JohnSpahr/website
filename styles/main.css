@@ -17,10 +17,10 @@ body {
 
 .cardHolder {
   margin: 30px 0 30px 0;
+  text-align: left;
 }
 
 .card {
-  text-align: left;
   padding: 5px 10px 5px 10px;
   border: 3px solid #33336e;
   background-color: #fefefe;
@@ -37,8 +37,9 @@ a {
   color: #330099;
 }
 
-.card p {
-  color: #555;
+.card p,
+ul {
+  color: #444;
 }
 
 .socialBubbles {
