@@ -78,7 +78,8 @@ a {
   text-align: center;
 }
 
-.title {
+.title,
+.title a:visited {
   color: white;
 }
 
