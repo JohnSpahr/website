@@ -6,6 +6,8 @@ body {
   background-repeat: repeat;
   color: black;
   font-family: 'Georgia', sans-serif;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .content {
