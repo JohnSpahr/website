@@ -78,6 +78,14 @@ a {
   text-align: center;
 }
 
+.title {
+  color: white;
+}
+
+.title:hover {
+  color: #9eb3c2;
+}
+
 .extraPadding {
   padding: 20px 10px 20px 10px;
 }
