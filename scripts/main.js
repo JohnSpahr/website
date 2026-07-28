@@ -1,5 +1,5 @@
 function Email() {
-	alert("Send me some mail via: john.spahr [at] bsu [dot] edu");
+	alert("Send me some mail via: johnspahr20 [at] gmail [dot] com");
 }
 
 const cards = document.querySelectorAll('.card');
